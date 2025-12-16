@@ -1,0 +1,88 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url("images/bg1.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  font-family: "Franklin Gothic Medium", sans-serif;
+}
+
+.navbar {
+  background-color: transparent;
+  flex-shrink: 0;
+}
+
+.title {
+  margin-top: 35px;
+  margin-left: 10px;
+}
+
+.toast {
+  visibility: hidden;
+  min-width: 300px;
+  background-color: rgba(255, 255, 255, 0.2);
+  color: white;
+  text-align: center;
+  border-radius: 8px;
+  padding: 20px;
+  position: fixed;
+  z-index: 1;
+  bottom: 20px;
+  right: 20px;
+  font-size: 18px;
+  opacity: 0;
+  transition: opacity 0.5s, visibility 0.5s;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.toast.show {
+  visibility: visible;
+  opacity: 1;
+}
+
+p {
+  text-align: center;
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.image {
+  transition: transform 0.3s ease;
+}
+
+.image:hover {
+  transform: scale(1.2);
+}
+h2 {
+  font-weight: bolder;
+  color: white;
+}
+.container {
+  flex: 1;
+}
+footer {
+  margin-top: auto;
+  width: 100%;
+  position: relative;
+  z-index: 1;
+  padding: 1rem 0;
+}
+
+footer .row > div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+@media (min-width: 768px) {
+  footer .row > div {
+    align-items: flex-start;
+    margin-bottom: 0;
+  }
+}

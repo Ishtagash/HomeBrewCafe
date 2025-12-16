@@ -1,0 +1,29 @@
+body {
+  background-image: url("images/bg1.png");
+  background-size: cover;
+  background-position: center;
+  min-height: 100vh;
+  padding: 30px 0;
+}
+.billing-card {
+  background: #fff;
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.3);
+  max-width: 1200px;
+  margin: auto;
+}
+.sidebar {
+  background: #f8f9fa;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+.table-wrapper {
+  overflow-x: auto;
+}
+.billing-footer {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}

@@ -1,0 +1,45 @@
+body {
+  background-image: url("images/bg1.png");
+  background-size: cover;
+  background-position: center;
+  min-height: 100vh;
+  padding: 30px 0;
+}
+.receipt-card {
+  background: #fff;
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.3);
+  max-width: 800px;
+  margin: auto;
+  font-family: "Courier New", monospace;
+}
+.receipt-header {
+  text-align: center;
+  border-bottom: 2px solid #dee2e6;
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+}
+.receipt-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+.receipt-table th,
+.receipt-table td {
+  padding: 8px 12px;
+  text-align: left;
+  border-bottom: 1px dotted #ccc;
+}
+.receipt-table .separator {
+  border-bottom: 2px solid #000;
+  font-weight: bold;
+}
+.receipt-table .total-row {
+  font-size: 1.2em;
+  font-weight: bold;
+  color: #28a745;
+  border-top: 2px solid #000;
+}
+.receipt-table .payment-row {
+  border-top: 2px solid #000;
+}
